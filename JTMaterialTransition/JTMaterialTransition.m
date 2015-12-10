@@ -46,7 +46,7 @@
         [transitionContext.containerView addSubview:animatedViewForTransition];
         
         animatedViewForTransition.clipsToBounds = YES;
-        animatedViewForTransition.layer.cornerRadius = CGRectGetHeight(animatedViewForTransition.frame) / 2.;
+        //animatedViewForTransition.layer.cornerRadius = CGRectGetHeight(animatedViewForTransition.frame) / 2.;
         animatedViewForTransition.backgroundColor = self.startBackgroundColor;
     }
     
